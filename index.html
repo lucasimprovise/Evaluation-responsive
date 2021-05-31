@@ -16,30 +16,30 @@
 <body>
 
     <!--HEADER-->
-    <header class="header_main">
+    <header>
+
         <div  class="header_logo">
-            <img src="./assets/image/image_2.png" alt="logo">
+            <img src="./assets/image/image_2.png" alt="logo" class="logo">
 
         </div>
 
         <div class="menu_overlay"></div>
 
         <!--Premier Menu-->
-    <nav class="header_menu">
-
+    <nav>
         <ul class="nav_list_top">
-            <li class="nav_item_top">
+            <li>
                 <a href="#" class="nav_link">
                     à propos
                 </a>
             </li>
-                <li class="nav_item_top"></li>
+                <li>
                 <a href="#" class="nav_link">
                    recherche
                 </a>
             </li>
          
-            <li class="nav_item_top"></li>
+            <li>
             <a href="#" class="nav_link">
                 <i class="fab fa-instagram "></i>
             </a>
@@ -49,24 +49,24 @@
 
     </nav>
     <!--Deuxième Menu-->
-    <nav class="header_menu_principal">
+    <nav>
         <ul class="nav_list_mid">
-            <li class="nav_item_mid">
+            <li>
                 <a href="#" class="nav_link">
                    MONTRES
                 </a>
             </li>
-                <li class="nav_item_mid"></li>
+                <li>
                 <a href="#" class="nav_link">
                    AUTOMOBILE
                 </a>
             </li>
-            <li class="nav_item_mid">
+            <li>
                 <a href="#" class="nav_link">
                    LIFESTYLE
                 </a>
                 </li>
-                <li class="nav_item_mid">
+                <li>
                     <a href="#" class="nav_link">
                         SPORTS
                     </a>
@@ -76,11 +76,20 @@
     </nav>
     </header>
 
-    <div class="firstarticle">
+    <!--Section 1-->
+    <div class="first_section">
+        <div class="image_wrapper">
+            
+            <img src="./assets/image/Image 1.png" alt="Voiture" class="image_article_left">
+            <img src="./assets/image/IMAGE.png" alt="Whisky" class="image_article_right">
+            
+        </div>
         <div class="cadre">
-            <div class="article">
-                <div class="gauche">
-                    <img src="./assets/image/Image 1.png" alt="Voiture" >
+            
+           
+
+                <!--First article -->
+                <div class="article_left">
                     <div class="zone_de_texte_gauche">
                         <div class="texte_gauche">
                             <p class="titre_description">AUTOMOBILE <abbr class="texte_gris"> - Voiture de collection</abbr></p>
@@ -90,7 +99,7 @@
                             <p class="gros_titre">Jaguar Type E, un rêve qui pourrait être réalité</p>
 
                         </div>
-                        <div class="texte_principale">
+                        <div class="texte_principal">
                             <p class="texte" >S'offrir une Jaguar Type E demeure encore aujourd'hui le rêve de très nombreux passionés d'automobile ancienne. Il faut dire qu'avec sa silhouette fantastique...</p>
                         </div>
                         <div class="next">
@@ -101,15 +110,13 @@
                     </div>
                 </div>
 
-            </div>
+            <!--Second article -->
 
-            <div class="secondpost">
-                <div class="droite">
-                    <img src="./assets/image/IMAGE.png" alt="Whisky">
+            <div>
+                <div class="article_right">
                     <div class="zone_de_texte_droite">
                         <div class="texte_droite">
-                            <p class="titre_description2">LIFESTYLE</p>
-                            <p class="whisky_texte">- Vins & alcools</p>
+                            <p class="titre_description">LIFESTYLE <abbr class="texte_gris"> - Vin & alcools</abbr></p>
 
                         </div>
                         <div>
@@ -144,8 +151,8 @@
                 <p class="sous_categorie1">Fiches Techniques</p>
                 <p class="sous_categorie1">|</p>
                 <p class="sous_categorie1">Actualités</p>
-                <div class="tout_voir1">
-                    <a href="#" class="tout_voir">TOUT VOIR ➝</a>
+                <div class="tout_voir_container">
+                    <a href="#" class="tout_voir_item">TOUT VOIR ➝</a>
                 </div>
             </div>
         </div>
@@ -156,8 +163,11 @@
 
     <div class="liste_rubrique">
         <div class="article_categorie">
+
+            <div></div>
+
             <div class="image_article">
-                <img src="./assets/image/montre_rouge.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/montre_rouge.png" alt="" class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         MONTRES <abbr class="texte_gris"> -Actualités</abbr>
@@ -169,10 +179,10 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
             <div class="image_article">
-                <img src="./assets/image/MK.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/MK.png" alt="" class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         MONTRES <abbr class="texte_gris"> -Fiche tech</abbr>
@@ -183,10 +193,10 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
             <div class="image_article">
-                <img src="./assets/image/montre_noir.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/montre_noir.png" alt="" class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         MONTRES <abbr class="texte_gris"> -Investir</abbr>
@@ -198,8 +208,9 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
-            </div>
+            </div> 
+             
+            <div></div>
             
            
             </div>
@@ -222,8 +233,8 @@
                 <p class="sous_categorie1">Revue Techniques</p>
                 <p class="sous_categorie1">|</p>
                 <p class="sous_categorie1">Test drive</p>
-                <div class="tout_voir2">
-                    <a href="#" class="tout_voirtwo">TOUT VOIR ➝</a>
+                <div class="tout_voir_container">
+                    <a href="#" class="tout_voir_item">TOUT VOIR ➝</a>
                 </div>
             </div>
         </div>
@@ -234,8 +245,10 @@
 
     <div class="liste_rubrique">
         <div class="article_categorie">
+            <div></div>
+
             <div class="image_article">
-                <img src="./assets/image/expo.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/expo.png" alt="" class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         AUTOMOBILES <abbr class="texte_gris"> -Voiture de collection</abbr>
@@ -247,10 +260,10 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
             <div class="image_article">
-                <img src="./assets/image/ferrari.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/ferrari.png" alt=""class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         AUTOMOBILES <abbr class="texte_gris"> -Test drives</abbr>
@@ -261,10 +274,10 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
             <div class="image_article">
-                <img src="./assets/image/costume.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/costume.png" alt="" class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         AUTOMOBILES <abbr class="texte_gris"> -Revue techniques</abbr>
@@ -276,8 +289,10 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
+
+            <div></div>
             
            
             </div>
@@ -321,8 +336,8 @@
                 <p class="sous_categorie1">Good spots</p>
                 <p class="sous_categorie1">|</p>
                 <p class="sous_categorie1">Mode & tendances</p>
-                <div class="tout_voir3">
-                    <a href="#" class="tout_voirthree">TOUT VOIR ➝</a>
+                <div class="tout_voir_container">
+                    <a href="#" class="tout_voir_item">TOUT VOIR ➝</a>
                 </div>
             </div>
         </div>
@@ -333,8 +348,10 @@
 
     <div class="liste_rubrique">
         <div class="article_categorie">
+            <div></div>
+
             <div class="image_article">
-                <img src="./assets/image/bouteille_scellé.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/bouteille_scellé.png" alt="" class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         LIFESTYLE <abbr class="texte_gris"> -Vin&alcools</abbr>
@@ -346,10 +363,10 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
             <div class="image_article">
-                <img src="./assets/image/superpote.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/superpote.png" alt="" class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         LIFESTYLE <abbr class="texte_gris"> -Gastronomie</abbr>
@@ -360,10 +377,10 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
             <div class="image_article">
-                <img src="./assets/image/costume.png" alt="" height="282px" width="422px">
+                <img src="./assets/image/costume.png" alt=""class="image">
                 <div class="categorie_article">
                     <p class="titre_categorie">
                         LIFESTYLE <abbr class="texte_gris"> -Mode & tendances</abbr>
@@ -375,8 +392,9 @@
                 <div class="next_article">
                     <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
                 </div>
-            
             </div>
+
+            <div></div>
             
            
             </div>
@@ -401,8 +419,8 @@
             <p class="sous_categorie1">|</p>
             <p class="sous_categorie1">Tests drives</p>
 
-            <div class="tout_voir4">
-                <a href="#" class="tout_voirfour">TOUT VOIR ➝</a>
+            <div class="tout_voir_container">
+                <a href="#" class="tout_voir_item">TOUT VOIR ➝</a>
             </div>
         </div>
     </div>
@@ -413,8 +431,10 @@
 
 <div class="liste_rubrique">
     <div class="article_categorie">
+        <div></div>
+
         <div class="image_article">
-            <img src="./assets/image/expo.png" alt="" height="282px" width="422px">
+            <img src="./assets/image/expo.png" alt="" class="image">
             <div class="categorie_article">
                 <p class="titre_categorie">
                     AUTOMOBILES <abbr class="texte_gris"> -Voiture de collection</abbr>
@@ -426,10 +446,10 @@
             <div class="next_article">
                 <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
             </div>
-        
         </div>
+
         <div class="image_article">
-            <img src="./assets/image/ferrari.png" alt="" height="282px" width="422px">
+            <img src="./assets/image/ferrari.png" alt="" class="image">
             <div class="categorie_article">
                 <p class="titre_categorie">
                     AUTOMOBILES <abbr class="texte_gris"> -Tests drives</abbr>
@@ -440,10 +460,10 @@
             <div class="next_article">
                 <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
             </div>
-        
         </div>
+
         <div class="image_article">
-            <img src="./assets/image/cheval.png" alt="" height="282px" width="422px">
+            <img src="./assets/image/cheval.png" alt="" class="image">
             <div class="categorie_article">
                 <p class="titre_categorie">
                     SPORT <abbr class="texte_gris"> -Revues techniques</abbr>
@@ -455,8 +475,9 @@
             <div class="next_article">
                 <a href="#" class="arrow_article">LIRE LA SUITE➝</a>
             </div>
-        
         </div>
+
+        <div></div>
         
        
         </div>
@@ -464,6 +485,7 @@
 </div>
     
 </body>
+
 <footer>
 <div class="footer_main">
     <div >
