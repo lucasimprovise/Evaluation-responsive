@@ -1,0 +1,813 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/hk-grotesk.min.css");
+
+.line{
+    border: 1px solid #E5DBD1;;
+    width: 100%;
+    
+}
+.menu_overlay {
+    display: block;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+.header_menu .nav_list_top {
+    position: absolute;
+    list-style: none;
+    height: 15px;
+    left: 67%;
+    top:3%;
+    letter-spacing: 0.342857px;
+
+
+
+    color: #003B5C;
+    
+    font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+
+}
+
+.header_menu .nav_link {
+
+    text-decoration: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 60px;
+
+}
+
+.header_logo img{   
+width: 221px;
+display: flex;
+margin:22px  auto ;
+
+
+}
+
+.header_menu_principal .nav_list_mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_menu_principal .nav_link {
+    margin: 0 10px;
+
+    
+
+}
+
+.header_menu_principal .nav_list_mid {
+
+
+
+    color: #003B5C;
+    
+    font-family: 'HK Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    left: 80px;
+
+}
+
+.firstarticle{
+    text-align: justify;
+    margin-bottom: 230px;
+}
+
+.article{
+    display: flex;
+
+}
+/* 
+.firstarticle .cadre .article .gauche img{
+    height: 475px;
+    width: 736px;
+
+
+}
+
+.firstarticle .zone_de_texte_gauche{
+
+    width: 500px;
+    height: 890px;
+    top:569px;
+    left : 300px;
+    position: absolute;
+    background-color: white;
+    clip-path: inset(5% 0 47% 0);
+}
+
+ .titre_description{
+    color: #003B5C;
+    
+    font-family: 'HK Grotesk', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    left: 80px;
+    text-align: center;
+    
+
+}
+ 
+.texte_gris{
+    color: rgba(93, 83, 79, 0.6);
+
+}
+
+.gros_titre{
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 39px;
+
+    text-align: center;
+    letter-spacing: -0.4px;
+    margin: 70px 30px ;
+
+color: #003B5C;
+}
+
+.texte_principale{
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    /* or 175% */
+/* 
+    text-align: center;
+    letter-spacing: -0.4px;
+
+    color: #5D534F;
+
+    position: absolute;
+    top : 170px;
+
+}
+ .gauche img{
+    margin : 0px 180px;
+
+}
+
+.next_fleche{
+font-family: HK Grotesk;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 15px;
+
+
+text-align: center;
+letter-spacing: 0.398968px;
+
+color: #E74832;
+
+position: absolute;
+
+top: 300px;
+left: 190px;
+
+}
+
+
+body{width:99%;}
+ */ 
+
+
+ .zone_de_texte_gauche{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 520px;
+    margin: 0px 117px 0px 117px;
+    position: absolute;
+    top: 90%;
+    background-color: white;
+
+ }
+
+ .texte_gauche{
+     display: flex;
+     justify-content: center;
+ }
+
+ .titre_description{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color: #003B5C ;
+ } 
+
+ .texte_gris{
+    font-family: "HK Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: center;
+    color: rgba(79, 77, 77, 0.6)
+
+ }
+
+ .gros_titre{
+    display: flex;
+    justify-content: center;
+    font-family: "Libre Baskerville";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: -0.4000000059604645px;
+    text-align: center;
+    color: #003B5C;
+    width: 90%;
+    margin: 0px;
+ }
+
+ .texte_principale{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .texte{
+        width: 502px;
+        text-align: center;
+        font-family: "Libre Baskerville";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: center;
+        color: #5D534F;
+        
+    
+    }
+
+    .cadre{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        gap: 30px;
+    }
+
+    .next{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .next_fleche{
+        font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.39896801114082336px;
+    text-align: center;
+    color: #E74832;
+    }
+    
+
+
+
+    .secondpost{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .droite{
+        height:335px; 
+    }
+
+    .droite img{
+        max-height: 100%;
+    }
+
+    .titre_description2{
+        font-family: "HK Grotesk";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: center;
+        color: #003B5C ;
+    }
+
+    .whisky_texte{
+        font-family: "HK Grotesk";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0.4000000059604645px;
+        text-align: center;
+        color: #5D534F;
+    }
+    
+    .texte2{
+        width: 490px;
+        text-align: center;
+        font-family: "Libre Baskerville";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: center;
+        color: #5D534F;
+    }
+
+    .texte_droite{
+        display: flex;
+        justify-content: center;
+    }
+
+    .gros_titre2{
+        display: flex;
+        justify-content: center;
+        font-family: "Libre Baskerville";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 39px;
+        letter-spacing: -0.4000000059604645px;
+        text-align: center;
+        color: #003B5C;
+        width: 99%;
+        margin: 0px;
+    }
+    
+
+    .next2{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .next_fleche2{
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0.39896801114082336px;
+        text-align: center;
+        color: #E74832;
+
+    }
+
+    .zone_de_texte_droite{
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 480px;
+        margin: 0px 10px 0px 20px;
+        position: absolute;
+        top: 62%;
+        background-color: white;
+    }
+
+    .texte_principale2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    
+    .separation_category{
+        border: 1px solid #E5DBD1;
+        width: 42%;
+        margin: 0px 1% 0px 1%;
+        border: none;
+        border-top: 3px double #E5DBD1;;
+        overflow: visible;
+        text-align: center;
+        height: 5px;
+    }
+
+    .separation{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nom_category{
+        font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #003B5C;
+
+    border-width:1px;
+    border-style:solid;
+    border-color:#E5DBD1;;
+
+    box-shadow: 6px 6px 0px #E5DBD1;
+
+    }
+
+    .choix_sous_categorie{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: HK Grotesk;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12.031px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: rgba(93, 83, 79, 0.6);
+        text-decoration: none;
+        
+
+    
+
+    }
+
+    .sous_categorie1{
+        margin: auto 10px;
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+    .tout_voir{
+     display: flex;
+     position: absolute;
+     top:   995px;
+     left: 1500px;
+     font-family: "HK Grotesk";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+
+
+    text-align: center;
+    letter-spacing: 0.398968px;
+    color: #F24922;
+    }
+
+    .liste_rubrique {
+        margin-bottom: 230px;
+        display: flex;
+        justify-content: center;
+      
+
+    }
+
+    .image_article {
+        margin: 0px 100px;
+        margin-top: 30px;
+
+
+    }
+
+    .article_categorie{
+        display: flex;
+    }
+
+    .titre_categorie{
+        font-family: "HK Grotesk";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0.4000000059604645px;
+        color: #003B5C ;
+    }
+    
+    .article_titre{
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .titre{
+        
+        font-family: "Libre Baskerville";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 22px;
+        line-height: 31px;
+        letter-spacing: -0.4px;
+        color: #003B5C;
+        text-align: justify ;
+        
+
+    }
+
+    .next_article{
+        display: flex;
+   
+        flex-direction: row;
+
+
+    }
+
+    .arrow_article{
+        font-size: 12px;
+        font-style: normal;
+        font-family: "HK Grotesk";
+        font-weight: 600;
+        line-height: 15px;
+        letter-spacing: 0.39896801114082336px;
+        text-align: center;
+        color: #E74832;
+
+    }
+
+    
+.tout_voirtwo{
+        display: flex;
+        position: absolute;
+        top:   1798px;
+        left: 1500px; 
+        font-family: "HK Grotesk";
+       font-style: normal;
+       font-weight: 600;
+       font-size: 12px;
+       line-height: 15px;
+       
+    text-align: center;
+    letter-spacing: 0.398968px;
+    color: #F24922;
+   
+}
+
+
+.filigrane_section{
+    height: 456px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    margin-top: 70px;
+    text-align: center;
+}
+
+.titre_newsletter{
+    font-family: "Libre Baskerville";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.866667px;
+
+color: #FFFFFF;
+}
+
+.desc_newsletter{
+    font-family: "Libre Baskerville";
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 31px;
+text-align: center;
+letter-spacing: -0.4px;
+color: #FFFFFF;
+}
+
+.btn{
+    
+        display: inline-block;
+        text-transform: uppercase;
+        font-size: 15px;
+        text-decoration: none;
+        color: black;
+        padding: 15px 10px;
+        letter-spacing: 2px;
+        background: none;
+        border: none;
+        font-weight: 400;
+        cursor: pointer;
+        transition: 0.3s all;
+    
+}
+
+.btn:hover {
+    transition: 0.3s all;
+}
+
+.btn-3D {
+    
+    border: 1px solid #E5DBD1;
+    width: 42%;
+    margin: 0px 1% 0px 1%;
+    background: white;
+    box-shadow: 6px 6px 0px #E74832;;
+}
+
+.newsletter_boutton{
+    padding-top: 20px;
+}
+
+
+
+.tout_voirthree{
+    display: flex;
+    position: absolute;
+    top:   3060px;
+    left: 1500px;
+    font-family: "HK Grotesk";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 15px;
+   
+text-align: center;
+letter-spacing: 0.398968px;
+color: #F24922;
+}
+
+.tout_voirfour{
+    display: flex;
+    position: absolute;
+    top:   3860px;
+    left: 1500px;
+    font-family: "HK Grotesk";
+   font-style: normal;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 15px;
+   
+text-align: center;
+letter-spacing: 0.398968px;
+color: #F24922;
+    
+}
+footer{
+    width: 100%;
+    background: rgba(231, 72, 50, 1);
+    height: 390px;
+    color: white;
+
+}
+
+.footer_main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 65px;
+    padding-bottom: 45px;
+}
+
+.logo_foot{
+    width: 285px;
+    height: 138px;
+}
+
+
+
+.categorie{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height, or 118% */
+    font-family: HK Grotesk;
+
+    letter-spacing: -0.55px;
+
+    color: #FFFFFF;
+
+}
+
+.texte_liste{
+font-style: bold;
+font-weight: normal;
+font-size: 12.031px;
+line-height: 15px;
+letter-spacing: 0.4px;
+text-decoration: none;
+color: #FFFFFF;
+text-transform: uppercase;
+font-family: "HK Grotesk";
+
+}
+
+.liste_footer{
+    display: grid;
+}
+
+.btn1{
+    Width: 179px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    background: #E74832;
+    transition: 0.5s;
+    box-shadow: 4px 4px 0 white;
+    border: 1px solid white;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    justify-content: center;
+     }
+
+     .img_footer{
+         width: 12px;
+         height: 22px;
+     }
+
+.img_footer1{
+    width: 23px;
+    height: 17px;
+}
+
+.img_footer2{
+    width: 17.3px;
+    height: 17.3;
+}
+
+.icon{
+    margin-left: 15px;
+}
+
+.hr{
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.CGU{
+    float: left;
+    margin-left: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "HK Grotesk";
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+.copyright{
+    float: right;
+    margin-right: 45px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: "HK Grotesk";
+    font-size: 12.031px;
+    line-height: 15px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+
+@media screen and (min-widht:768px) and (max-width: 1023px) {
+
+    .liste_rubrique {
+        display: flex;
+        justify-content: center;
+    }
+
+    .image_article {
+        margin: 0px 25px;
+
+        width: 30px;
+       
+
+
+    }
+      
+    
+}
