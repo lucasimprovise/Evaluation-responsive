@@ -922,10 +922,11 @@ font-family: "HK Grotesk";
 
 /* Mobile M */
 @media screen and (min-width: 375px) and (max-width: 424px) {
+    #pasfini
 
 }
 
 /* Mobile S */
 @media screen and (min-width: 320px) and (max-width: 374px) {
-
+    #pasfini
 }
